@@ -1,0 +1,179 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(./img/images\ \(1\).jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+
+
+}
+
+.home{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.home ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.home ul li{
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+.home ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.active, .home ul li:hover {
+
+    background-color: lightgreen;
+    border-radius: 2px;
+
+}
+
+
+.home .fa{
+margin-right: 15px;
+
+
+
+}
+
+
+
+
+.vision{
+    display: none;
+}
+
+.home ul li:hover .vision{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: black;
+    color: white;
+}
+
+.home ul li:hover .vision ul{
+    display: block;
+    margin: 10px;
+}
+
+.home ul li:hover .vision ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background-color: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.home ul li:hover .vision ul li:last-child{
+    border-bottom: none;
+
+}
+
+.home ul li:hover .vision ul li:hover{
+    color: red;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+
+.market{
+    display: none;
+}
+
+.me:hover .market{
+    position: absolute;
+    display: block; 
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: black;
+}
+
+
+.home ul li:hover .ul li:hover{
+    color: red;
+}
+
+.and h1{
+    color: red;
+    font-size: 50px;
+    margin: 10%;
+}
+
+.and p{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.type{
+    margin-top: 20%;
+    margin-left: 15%;
+    padding: px;
+    padding-bottom: 50px;
+}
+
+#or{
+    display: flex;
+    
+}
+
+.type input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.type button{
+    width: 70%;
+    margin: 30px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.type button:hover{
+    font-size: 30px;
+}
+
+
+
+
+
+.type h1{
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+
